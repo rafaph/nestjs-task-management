@@ -86,6 +86,11 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/config@^0.0.34":
+  version "0.0.34"
+  resolved "http://www.simworx.net.br:80/npm/@types%2fconfig/-/config-0.0.34.tgz#123f91bdb5afdd702294b9de9ca04d9ea11137b0"
+  integrity sha512-jWi9DXx77hnzN4kHCNEvP/kab+nchRLTg9yjXYxjTcMBkuc5iBb3QuwJ4sPrb+nzy1GQjrfyfMqZOdR4i7opRQ==
+
 "@types/connect@*":
   version "3.4.32"
   resolved "http://www.simworx.net.br:80/npm/@types%2fconnect/-/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
@@ -438,6 +443,13 @@ concat-stream@^1.5.2:
     inherits "^2.0.3"
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
+
+config@^3.2.2:
+  version "3.2.2"
+  resolved "http://www.simworx.net.br:80/npm/config/-/config-3.2.2.tgz#c7d31bb2a9d30013a905ff420101e3b1ba58eead"
+  integrity sha512-rOsfIOAcG82AWouK4/vBS/OKz3UPl2T/kP0irExmXJJOoWg2CmdfPLdx56bCoMUMFNh+7soQkQWCUC8DyemiwQ==
+  dependencies:
+    json5 "^1.0.1"
 
 consola@^2.3.0:
   version "2.10.1"
