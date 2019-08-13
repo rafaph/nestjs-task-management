@@ -7,8 +7,6 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
     username: 'raphael',
     password: process.env.DB_PASSWORD,
     database: 'taskmanagement',
-    entities: [
-        __dirname + '/../**/*.entity.{js,ts}'
-    ],
+    entities: [__dirname + '/../**/*.entity.{js,ts}'],
     synchronize: true
 };
