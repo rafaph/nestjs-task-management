@@ -1,7 +1,5 @@
 db:
-  host: 'localhost'
-  username: 'raphael'
-  password: 'raphael10'
+  url: 'postgres://postgres:postgres@127.0.0.1:5432/taskmanagement'
   synchronize: true
 
 jwt:
