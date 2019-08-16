@@ -9,6 +9,7 @@ import * as config from 'config';
 
 interface ServerConfig {
     port: number;
+    origin: string;
 }
 
 async function bootstrap() {
@@ -21,7 +22,7 @@ async function bootstrap() {
         app.enableCors();
     } else {
         app.enableCors({
-            origin: 'https://rafaph.github.io'
+            origin: serverConfig.origin
         });
     }
 

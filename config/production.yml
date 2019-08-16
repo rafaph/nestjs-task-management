@@ -1,2 +1,5 @@
+server:
+  origin: 'https://rafaph.github.io'
+
 db:
   synchronize: false
