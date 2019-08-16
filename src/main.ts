@@ -21,7 +21,7 @@ async function bootstrap() {
         app.enableCors();
     } else {
         app.enableCors({
-            origin: 'https://rafaph.github.io/task-management-frontend'
+            origin: 'https://rafaph.github.io'
         });
     }
 
