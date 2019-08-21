@@ -80,11 +80,11 @@ export class TasksController {
     }
 
     @Patch('/:id/status')
-    updateStatusStatus(
+    updateTaskStatus(
         @Param('id', ParseIntPipe) id: number,
         @Body('status', TaskStatusValidationPipe) status: TaskStatus,
         @GetUser() user: User
     ): Promise<Task> {
-        return this.tasksService.updateStatusStatus(id, status, user);
+        return this.tasksService.updateTaskStatus(id, status, user);
     }
 }
