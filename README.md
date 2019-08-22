@@ -1,4 +1,7 @@
 # NestJS Task Management system
+
+[![Build Status](https://travis-ci.org/rafaph/nestjs-task-management.svg?branch=master)](https://travis-ci.org/rafaph/nestjs-task-management)
+
 This project was created along the udemy course: https://www.udemy.com/nestjs-zero-to-hero/
 
 The result project can be found here: https://rafaph.github.io/task-management-frontend/
